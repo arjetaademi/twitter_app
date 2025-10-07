@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost         # njësoj si te mini_blog
+  port: 5432
+  username: postgres      # përdoruesi i njëjtë që të punon
+  password: "Arjeta2024!" # përdor saktësisht këtë si te mini_blog
+  pool: 5
+
+development:
+  <<: *default
+  database: twitter_app_development
+
+test:
+  <<: *default
+  database: twitter_app_test
+
