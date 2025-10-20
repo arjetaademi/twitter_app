@@ -116,6 +116,7 @@ GEM
     et-orbi (1.4.0)
       tzinfo
     ffi (1.17.2-x64-mingw-ucrt)
+    ffi (1.17.2-x86_64-linux-gnu)
     fugit (1.11.2)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -331,8 +332,8 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.7)
     thor (1.4.0)
-    thruster (0.1.15)
-    thruster (0.1.15-x86_64-linux)
+    thruster (0.1.16)
+    thruster (0.1.16-x86_64-linux)
     timeout (0.4.3)
     tsort (0.2.0)
     turbo-rails (2.0.17)
